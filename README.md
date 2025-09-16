@@ -6,4 +6,6 @@
 <h3> Introdução: </h3>
 
 <p align="justify">
-  O desafio proposto para o nosso grupo foi a criação de dois semáforos no Arduino, um atribuído a carros (lado direito da imagem) e o outro a pedestres (lado esquerdo da imagem). Com objetivo de construir um protótipo que simulava um controle de tráfego de transito, onde utilizamos a plataforma do Arduino, para controlar esses dois conjuntos de semáforos, os comandos eram estabelecidos da seguinte maneira:
+  Este é um projeto de automação que simula uma cancela de estacionamento automática. O sistema utiliza um sensor de presença ultrassônico para detectar a aproximação de um objeto (como um carro) e um servo motor para atuar como a cancela, abrindo e fechando a passagem. O projeto foi desenvolvido como parte de uma atividade em grupo para o curso de 
+
+Técnico em Desenvolvimento de Sistemas , com o objetivo de aplicar conceitos de prototipagem e uso de sensores/atuadores
