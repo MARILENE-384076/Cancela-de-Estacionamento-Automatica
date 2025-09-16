@@ -35,8 +35,8 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 
 - Servo Motor (SG90):
 
-   -VCC (Vermelho) -> Pino 5V do Arduino
+   - VCC (Vermelho) -> Pino 5V do Arduino
 
-   -GND (Marrom/Preto) -> Pino GND do Arduino
+   - GND (Marrom/Preto) -> Pino GND do Arduino
 
    - Sinal (Laranja/Amarelo) -> Pino digital D3 do Arduino (pino PWM)
