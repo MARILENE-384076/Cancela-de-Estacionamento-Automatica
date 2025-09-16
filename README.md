@@ -21,4 +21,4 @@
 
 - Jumpers: Fios de conexão.
 
-Cabo USB: Para carregar o código no Arduino.
+- Cabo USB: Para carregar o código no Arduino.
