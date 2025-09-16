@@ -27,11 +27,11 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 
    - VCC -> Pino 5V do Arduino
 
-    -GND -> Pino GND do Arduino
+   - GND -> Pino GND do Arduino
 
-    -Trig -> Pino digital D9 do Arduino
+   - Trig -> Pino digital D9 do Arduino
 
-    -Echo -> Pino digital D10 do Arduino
+   - Echo -> Pino digital D10 do Arduino
 
 - Servo Motor (SG90):
 
