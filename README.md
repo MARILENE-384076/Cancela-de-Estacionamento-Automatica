@@ -63,3 +63,13 @@ Ajustes:
 
 
 
+ <hr>
+<h3> Melhorias </h3> 
+
+<p align="justify">  
+Adicionar Feedback Visual: Incluir LEDs (vermelho e verde) para indicar o estado da cancela (aberta ou fechada).
+Sistema de Detecção mais Robusto: Usar um segundo sensor ou um sensor de barreira para fechar a cancela somente depois que o veículo tiver passado completamente.
+Controle de Tempo Dinâmico: Em vez de um delay fixo, usar a detecção do sensor para fechar a cancela quando o objeto se afastar.
+
+
+
