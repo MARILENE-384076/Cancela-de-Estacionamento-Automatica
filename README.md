@@ -52,9 +52,9 @@ O código no loop() constantemente mede a distância de objetos na frente do sen
 <h3> Explicação do código </h3> 
 
 <p align="justify">  
-	1.	Sensor de distância: O sensor HC-SR04 envia um pulso ultrassônico e mede o tempo que ele demora para voltar. Esse tempo é usado para calcular a distância até o objeto.
-	2.	Servo motor: O servo começa na posição de 90 graus. Quando detecta um objeto dentro da distância configurada (distanciaMax), ele move para 180 graus. Quando não detecta mais, volta para 90 graus.
-	3.	LEDs: Um LED (ledMovimento) acende quando há movimento, e outro (ledSemMovimento) acende quando não há movimento.
+	1.	Sensor de distância: O sensor HC-SR04 envia um pulso ultrassônico e mede o tempo que ele demora para voltar. Esse tempo é usado para calcular a distância até o objeto. </h>
+	2.	Servo motor: O servo começa na posição de 90 graus. Quando detecta um objeto dentro da distância configurada (distanciaMax), ele move para 180 graus. Quando não detecta mais, volta para 90 graus.</h>
+	3.	LEDs: Um LED (ledMovimento) acende quando há movimento, e outro (ledSemMovimento) acende quando não há movimento.</h>
 
 Ajustes:
 
