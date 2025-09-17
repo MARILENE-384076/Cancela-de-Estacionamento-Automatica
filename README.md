@@ -47,7 +47,7 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 <h3> Como Funciona </h3> 
 
 <p align="justify">
-Como Funciona
+
 Detecção de Objeto: O sensor ultrassônico mede continuamente a distância até um objeto. Ele envia um pulso sonoro e calcula a distância com base no tempo que o som leva para retornar.
 Acionamento da Cancela: Se um objeto é detectado a uma distância menor que 10 cm, o servo motor é acionado, girando para um ângulo de 90° para abrir a cancela.
 Fechamento Automático: Após 5 segundos, a cancela se fecha automaticamente, com o servo motor retornando para sua posição original. Se nenhum objeto é detectado, a cancela permanece fechada.
@@ -60,6 +60,9 @@ Variáveis e Pinos:
 A variável distanciaMax pode ser ajustada para mudar a distância de detecção.
 Verifique se os pinos configurados no código (para o sensor, servo e LEDs) correspondem à sua montagem física.
 </p>
+
+
+
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
 
