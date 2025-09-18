@@ -48,23 +48,24 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 
 <hr>
 
-<h3> Como Funciona </h3> 
+<h3> Explicação do Código </h3> 
 
 <p align="justify">
 	
-Como Funciona
+<h5> Como Funciona </h5>
+
 Detecção de Objeto: O sensor HC-SR04 emite pulsos ultrassônicos e calcula a distância até um objeto com base no tempo que o pulso leva para voltar. A medição é feita constantemente.
 
-Controle da Cancela:
+<h5> Controle da Cancela: </h5>
 Quando um objeto é detectado a uma distância menor que 10 cm, o servo motor move-se para o ângulo de 90°, abrindo a cancela.
 Após 5 segundos, o servo retorna à sua posição original, fechando a cancela.
 Se nenhum objeto for detectado, a cancela permanece fechada.
 
-Indicadores Visuais (LEDs):
+<h5> Indicadores Visuais (LEDs): </h5>
 O LED Verde (ledMovimento) acende quando um objeto é detectado.
 E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
 
-Variáveis e Pinos:
+<h5> Variáveis e Pinos: </h5>
 - distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”.
 - Pinos: 
 
