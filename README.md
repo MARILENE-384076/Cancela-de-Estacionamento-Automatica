@@ -82,12 +82,12 @@ Se nenhum objeto for detectado, a cancela permanece fechada.
 <hr>
 <h3> Montagem do Protótipo: </h3>
 
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%201.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%202.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%203.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%204.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%205.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%206.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%207.jpg" /> </p>
 
 <hr>
