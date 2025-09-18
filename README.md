@@ -42,9 +42,14 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 
 <p align="justify">
  O código abaixo controla a leitura do sensor e a atuação do servo motor. 
+	
+</p>
+
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
 
 <hr>
-<h3> Como Funciona </h3> 
+
+<h3> Explicação do código </h3> 
 
 <p align="justify">
 
@@ -59,35 +64,9 @@ Outro LED (ledSemMovimento) acende quando não há objeto.
 Variáveis e Pinos:
 A variável distanciaMax pode ser ajustada para mudar a distância de detecção.
 Verifique se os pinos configurados no código (para o sensor, servo e LEDs) correspondem à sua montagem física.
-</p>
 
 
 
-
-<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
-
-<hr>
-<h3> Explicação do código </h3> 
-
-<p align="justify">  
-	1.	Sensor de distância: O sensor HC-SR04 envia um pulso ultrassônico e mede o tempo que ele demora para voltar. Esse tempo é usado para calcular a distância até o objeto. </h>
-	2.	Servo motor: O servo começa na posição de 90 graus. Quando detecta um objeto dentro da distância configurada (distanciaMax), ele move para 180 graus. Quando não detecta mais, volta para 90 graus.</h>
-	3.	LEDs: Um LED (ledMovimento) acende quando há movimento, e outro (ledSemMovimento) acende quando não há movimento.</h>
-
-Ajustes:
-
-	•	distanciaMax: Ajuste o valor para determinar o quão perto o objeto precisa estar para ser considerado “detecção de movimento”.
-	•	Pinos: Verifique se os pinos usados no código correspondem à sua montagem (pinos do sensor, servo, e LEDs).
-
-
-
- <hr>
-<h3> Melhorias </h3> 
-
-<p align="justify">  
-Adicionar Feedback Visual: Incluir LEDs (vermelho e verde) para indicar o estado da cancela (aberta ou fechada).
-Sistema de Detecção mais Robusto: Usar um segundo sensor ou um sensor de barreira para fechar a cancela somente depois que o veículo tiver passado completamente.
-Controle de Tempo Dinâmico: Em vez de um delay fixo, usar a detecção do sensor para fechar a cancela quando o objeto se afastar.
 
 
 
