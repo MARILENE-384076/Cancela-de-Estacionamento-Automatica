@@ -42,8 +42,7 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 
 <p align="justify">
  O código abaixo controla a leitura do sensor e a atuação do servo motor. 
-	
-<hr>
+</p>
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
 
