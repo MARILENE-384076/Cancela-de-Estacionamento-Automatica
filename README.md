@@ -61,17 +61,33 @@ Após 5 segundos, o servo retorna à sua posição original, fechando a cancela.
 Se nenhum objeto for detectado, a cancela permanece fechada.
 
 <h5> Indicadores Visuais (LEDs): </h5>
+
 - O LED Verde (ledMovimento) acende quando um objeto é detectado. <br>
 - E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
 
-<h5> Variáveis: </h5>
+<hr>
+<h3> Variáveis: </h3>
+
 - ledMovimento: LED que acende quando há movimento <br>
 - ledSemMovimento: LED que acende quando não há movimento <br>
-- distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”. <br>
+- alerta: Buzzer que emite um sinal sonoro quando detecta movimento <br>
+- distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento” <br>
 </p>
 
-<h5> Pinos: </h5>
+<hr>
+<h3> Pinos: </h3>
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Arduino.png" /> </p>
+
+<hr>
+<h3> Montagem do Protótipo: </h3>
+
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
 
 <hr>
