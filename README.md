@@ -66,7 +66,7 @@ O LED Verde (ledMovimento) acende quando um objeto é detectado.
 E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
 
 <h5> Variáveis e Pinos: </h5>
-- distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”.
+- distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”. <br>
 - Pinos: 
 
 </p>
