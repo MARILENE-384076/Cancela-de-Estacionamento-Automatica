@@ -43,30 +43,30 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 <p align="justify">
  O código abaixo controla a leitura do sensor e a atuação do servo motor. 
 	
-</p>
+<hr>
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
 
 <hr>
 
-<h3> Explicação do código </h3> 
+<h3> Como Funciona </h3> 
 
 <p align="justify">
-
-Detecção de Objeto: O sensor ultrassônico mede continuamente a distância até um objeto. Ele envia um pulso sonoro e calcula a distância com base no tempo que o som leva para retornar.
-Acionamento da Cancela: Se um objeto é detectado a uma distância menor que 10 cm, o servo motor é acionado, girando para um ângulo de 90° para abrir a cancela.
-Fechamento Automático: Após 5 segundos, a cancela se fecha automaticamente, com o servo motor retornando para sua posição original. Se nenhum objeto é detectado, a cancela permanece fechada.
 	
-Componentes Adicionais e Ajustes
-LEDs:
-Um LED (ledMovimento) acende quando um objeto é detectado.
-Outro LED (ledSemMovimento) acende quando não há objeto.
+Como Funciona
+Detecção de Objeto: O sensor HC-SR04 emite pulsos ultrassônicos e calcula a distância até um objeto com base no tempo que o pulso leva para voltar. A medição é feita constantemente.
+
+Controle da Cancela:
+Quando um objeto é detectado a uma distância menor que 10 cm, o servo motor move-se para o ângulo de 90°, abrindo a cancela.
+Após 5 segundos, o servo retorna à sua posição original, fechando a cancela.
+Se nenhum objeto for detectado, a cancela permanece fechada.
+
+Indicadores Visuais (LEDs):
+O LED Verde (ledMovimento) acende quando um objeto é detectado.
+E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
+
 Variáveis e Pinos:
-A variável distanciaMax pode ser ajustada para mudar a distância de detecção.
-Verifique se os pinos configurados no código (para o sensor, servo e LEDs) correspondem à sua montagem física.
+- distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”.
+- Pinos: 
 
-
-
-
-
-
+</p>
