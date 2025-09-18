@@ -6,9 +6,9 @@
 <h3> Introdução: </h3>
 
 <p align="justify">
-  Este é um projeto de automação que simula uma cancela de estacionamento automática. O sistema utiliza um sensor de presença ultrassônico para detectar a aproximação de um objeto (como um carro) e um servo motor para atuar como a cancela, abrindo e fechando a passagem. O projeto foi desenvolvido como parte de uma atividade em grupo para o curso de Técnico em Desenvolvimento de Sistemas , com o objetivo de aplicar conceitos de prototipagem e uso de sensores/atuadores.
+	Este é um projeto de automação que simula uma cancela de estacionamento automática. O sistema utiliza um sensor de presença ultrassônico para detectar a aproximação de um objeto (como um carro) e um servo motor para atuar como a cancela, abrindo e fechando a passagem. O projeto foi desenvolvido como parte de uma atividade em grupo para o curso de Técnico em Desenvolvimento de Sistemas , com o objetivo de aplicar conceitos de prototipagem e uso de sensores/atuadores.
 </p>
-  
+
 <hr>
 <h3> Componentes Necessários: </h3>
 
@@ -22,8 +22,8 @@
 <hr>
 <h3> Montagem do Circuito </h3> 
 
-<p align="justify">
-O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e simples.
+<p align="justify"> 
+	O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e simples.
 
 - Sensor Ultrassônico (HC-SR04):
    - VCC -> Pino 5V do Arduino
@@ -32,16 +32,16 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
    - Echo -> Pino digital D10 do Arduino
 
 - Servo Motor (SG90):
-
    - VCC (Vermelho) -> Pino 5V do Arduino
    - GND (Marrom/Preto) -> Pino GND do Arduino
    - Sinal (Laranja/Amarelo) -> Pino digital D3 do Arduino (pino PWM)
+</p>
 
 <hr>
 <h3> Código Arduino </h3> 
 
 <p align="justify">
- O código abaixo controla a leitura do sensor e a atuação do servo motor. 
+	O código abaixo controla a leitura do sensor e a atuação do servo motor. 
 </p>
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/C%C3%B3digo.png" /> </p>
@@ -51,8 +51,7 @@ O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e s
 <h3> Explicação do Código </h3> 
 
 <p align="justify">
-	
-<h5> Como Funciona </h5>
+	<h5> Como Funciona </h5>
 
 Detecção de Objeto: O sensor HC-SR04 emite pulsos ultrassônicos e calcula a distância até um objeto com base no tempo que o pulso leva para voltar. A medição é feita constantemente.
 
@@ -62,11 +61,10 @@ Após 5 segundos, o servo retorna à sua posição original, fechando a cancela.
 Se nenhum objeto for detectado, a cancela permanece fechada.
 
 <h5> Indicadores Visuais (LEDs): </h5>
-O LED Verde (ledMovimento) acende quando um objeto é detectado.
-E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
+- O LED Verde (ledMovimento) acende quando um objeto é detectado. <br>
+- E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
 
 <h5> Variáveis e Pinos: </h5>
 - distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”. <br>
 - Pinos: 
-
 </p>
