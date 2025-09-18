@@ -64,7 +64,14 @@ Se nenhum objeto for detectado, a cancela permanece fechada.
 - O LED Verde (ledMovimento) acende quando um objeto é detectado. <br>
 - E o LED Vermelho (ledSemMovimento) acende quando não há detecção.
 
-<h5> Variáveis e Pinos: </h5>
+<h5> Variáveis: </h5>
+- ledMovimento: LED que acende quando há movimento <br>
+- ledSemMovimento: LED que acende quando não há movimento <br>
 - distanciaMax: Inicializa com o valor de 20 cm, esta variavel foi ajustada para determinar o quão perto o objeto precisa estar para ser considerado que existe “detecção de movimento”. <br>
-- Pinos: 
 </p>
+
+<h5> Pinos: </h5>
+
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Arduino.png" /> </p>
+
+<hr>
