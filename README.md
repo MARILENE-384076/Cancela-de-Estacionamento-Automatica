@@ -91,3 +91,14 @@ Se nenhum objeto for detectado, a cancela permanece fechada.
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%207.jpg" /> </p>
 
 <hr>
+<h3> Protótipo Pronto: </h3>
+
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="" /> </p>
+
+<hr>
