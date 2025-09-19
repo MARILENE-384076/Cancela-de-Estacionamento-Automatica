@@ -1,4 +1,4 @@
-<h1 align = center> Fundamentos de IoT - Cancela de Estacionamento Automática </h1>
+<h1 align = center> Fundamentos de IoT - Cancela de Condomínio Automática </h1>
 <h4> Professor: Fred Aguiar </h4>
 <h4> Alunos: Danilo Santos, Diulie Mileide, Luna Beatriz, Marilene Araujo, Maycon Siqueira </h4>
 
@@ -93,12 +93,12 @@ Se nenhum objeto for detectado, a cancela permanece fechada.
 <hr>
 <h3> Protótipo Pronto: </h3>
 
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
-<p align="center"> <img src="" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%200.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%201.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%202.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%203.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%204.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Pronto%205.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Prot%C3%B3tipo.mp4" /> </p>
 
 <hr>
