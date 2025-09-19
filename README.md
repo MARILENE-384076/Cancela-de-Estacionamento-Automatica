@@ -80,6 +80,14 @@ Se nenhum objeto for detectado, a cancela permanece fechada.
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Arduino.png" /> </p>
 
 <hr>
+<h3> Dificuldades: </h3>
+
+- Ligação dos cabos; <br>
+- Montagem do protótipo; <br>
+- Cálculo para medição da distância; <br>
+</p>
+
+<hr>
 <h3> Montagem do Protótipo: </h3>
 
 <p align="center"> <img src="https://github.com/MARILENE-384076/Cancela-de-Estacionamento-Automatica/blob/main/Imagens%20Projeto/Montagem%201.jpg" height="800" width="800" /> </p>
